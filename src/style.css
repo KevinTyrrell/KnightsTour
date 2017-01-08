@@ -1,0 +1,30 @@
+
+.image-view
+{
+    -fx-image: url(knight.png);
+}
+
+VBox
+{
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+    -fx-padding: 15px;
+}
+
+.slider
+{
+    -fx-max-width: 200px;
+    -fx-show-tick-labels: true;
+    -fx-show-tick-marks: true;
+    -fx-major-tick-unit: 5;
+    -fx-snap-to-ticks: true;
+    -fx-minor-tick-length: 1;
+    -fx-block-increment: 1;
+}
+
+Line
+{
+    -fx-fill: red;
+    -fx-stroke: red;
+    -fx-stroke-width: 5px;
+}
